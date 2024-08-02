@@ -1,29 +1,29 @@
 /* GET 'home' page */
 const homelist = (req, res) => {
     res.render('locations-list', {
-    title: 'Loc8r - find a place to work with wifi',
+    title: 'online shopping',
     pageHeader: {
-    title: 'Loc8r',
-    strapline: 'Find places to work with wifi near you!'
+    title: 'Shivas',
+    strapline: 'Find places to shop!'
     },
     locations: [{
-    name: 'Starcups',
+    name: 'OOKO KAKA',
     address: '125 High Street, Reading, RG6 1PS',
     rating: 3,
-    facilities: ['Hot drinks', 'Food', 'Premium wifi'],
-    distance: '100m'
+    facilities: ['KIDSWEAR', 'MENSWEAR'],
+    distance: '2Km'
     },{
-    name: 'Cafe Hero',
-    address: '125 High Street, Reading, RG6 1PS',
+    name: 'BAD BOYZZ',
+    address: 'anurag pakka galli,vachey anutunaa',
     rating: 4,
-    facilities: ['Hot drinks', 'Food', 'Premium wifi'],
-    distance: '200m'
+    facilities: ['kidswear'],
+    distance: '2km'
     },{
-    name: 'Burger Queen',
+    name: 'ROWDY ERA',
     address: '125 High Street, Reading, RG6 1PS',
     rating: 2,
-    facilities: ['Food', 'Premium wifi'],
-    distance: '250m'
+    facilities: ['T-SHIRTS', 'SHIRTS'],
+    distance: '2Km'
 }]
 });
 };
